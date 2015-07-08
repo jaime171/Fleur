@@ -9,10 +9,17 @@ body {
     background: #F5EFFB;
 }
 
+hr{
+	background-color: lightgray !important;
+	height: 1px;
+}
+
 .navbar{
 	background: white;
 	border-bottom: none; 
 	height: 70px; /* evita que se vea la barra dsplegada */
+	-webkit-box-shadow: 0px 0px 8px 0px gray; 
+    box-shadow: 0px 0px 8px 0px gray; 
 }
 
 .nav li{
@@ -64,8 +71,17 @@ footer {
 		background-color: white;
 	}
 	
+	li{
+		padding-top: 10px;
+	}
 	.nav p:hover{
 		border-bottom: none;
+	}
+	.nav li:hover{
+		background-color: #FFEBEB;
+	}
+
+	a:visited{
 		color: black !important;
 	}
 
